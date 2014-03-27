@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Modding/Combat-Tag.1_7_2_R1.v6_0_2_c2.jar"/>
+	<classpathentry kind="lib" path="C:/Modding/craftbukkit-1.7.2-R0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tom/Desktop/GimmickAPI.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
