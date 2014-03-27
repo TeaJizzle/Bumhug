@@ -7,7 +7,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Modding/Combat-Tag.1_7_2_R1.v6_0_2_c2.jar"/>
-	<classpathentry kind="lib" path="C:/Modding/craftbukkit-1.7.2-R0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Modding/craftbukkit-1.7.2-R0.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://jd.bukkit.org/beta/apidocs/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Tom/Desktop/GimmickAPI.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
