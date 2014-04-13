@@ -9,8 +9,8 @@ import java.util.Random;
 import java.util.TreeMap;
 import java.util.logging.Logger;
 
-import net.minecraft.server.v1_7_R1.EntityTypes;
-import net.minecraft.server.v1_7_R1.Item;
+import net.minecraft.server.v1_7_R2.EntityTypes;
+import net.minecraft.server.v1_7_R2.Item;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

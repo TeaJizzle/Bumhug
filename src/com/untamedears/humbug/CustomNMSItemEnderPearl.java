@@ -2,12 +2,11 @@ package com.untamedears.humbug;
 
 
 import org.bukkit.Bukkit;
-import org.bukkit.entity.Player;
 
-import net.minecraft.server.v1_7_R1.EntityHuman;
-import net.minecraft.server.v1_7_R1.ItemEnderPearl;
-import net.minecraft.server.v1_7_R1.ItemStack;
-import net.minecraft.server.v1_7_R1.World;
+import net.minecraft.server.v1_7_R2.EntityHuman;
+import net.minecraft.server.v1_7_R2.ItemEnderPearl;
+import net.minecraft.server.v1_7_R2.ItemStack;
+import net.minecraft.server.v1_7_R2.World;
 
 import com.untamedears.humbug.Config;
 import com.untamedears.humbug.CustomNMSEntityEnderPearl;
@@ -38,7 +37,7 @@ public class CustomNMSItemEnderPearl extends ItemEnderPearl {
           0.5F,
           0.4F / (g.nextFloat() * 0.4F + 0.8F));
       if (!world.isStatic) {
-    	if (Bukkit.getPlayer(entityhuman.getName())!=null) { //make sure this is a player
+    	if (Bukkit.getPlayer(entityhuman.getName())!=null && Bukkit.getPluginManager().isPluginEnabled("GimmickAPI")) { //make sure this is a player and GimmickAPI is loaded
           if (GimmickAPI.getPvpModeForPlayer(Bukkit.getPlayer(entityhuman.getName())).equals(THIS_PVP_MODE)) { //check player's pvp mode
             double gravity = cfg_.get("ender_pearl_gravity").getDouble();
             world.addEntity(new CustomNMSEntityEnderPearl(world, entityhuman, gravity));
